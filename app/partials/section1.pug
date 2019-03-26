@@ -1,0 +1,23 @@
+.header
+    section.nav
+        div.container
+            div.row
+                p.nav__logo.row.start-xs.col-xs-6 AirBnb
+                ul.nav__list.row.end-xs.col-xs-6
+                    li.nav__list--text Devenez hote
+                    li.nav__list--text Créez une expérience
+                    li.nav__list--text Aide 
+                    li.nav__list--text Inscription
+                    li.nav__list--text Connexion
+
+    section.reservation
+        .container
+            .col-lg-3
+                h2.reservation__title Réservez des logements et des expériences uniques.
+                .reservation__form
+                    form(action="#")
+                        .reservation__form--where
+                            label(for="where").row.col-lg-12 Où?
+                            input(type="text").row.col-lg-12
+                        .reservation__form--button
+                            input(type="button" value="réserver").reservation-button

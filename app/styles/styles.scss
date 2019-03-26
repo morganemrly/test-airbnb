@@ -1,0 +1,47 @@
+@import './mixins/medias';
+
+body {
+  font-family: sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+
+.header {
+  background-image: url("../img/foret.jpg");
+  background-size: cover;
+  height: 800px;
+}
+
+.nav__list--text {
+  text-decoration: none;
+  list-style-type: none;
+  margin: .9rem;
+ 
+}
+.nav__logo {
+  margin: .9rem;
+}
+
+.nav {
+  color: white;
+}
+
+.reservation{
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 150px;
+}
+ 
+.reservation-button {
+ height: 50px;
+ width: 120px;
+ border-radius: 5px;
+ background-color: palevioletred;
+ color: white;
+ border: 0px;
+}
